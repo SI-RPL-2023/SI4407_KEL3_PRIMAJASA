@@ -58,7 +58,7 @@
                         <form action="{{ route('profile.update') }}" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class='form-group mb-3'>
-                                <label for='name' class='mb-2'>Name</label>
+                                <label for='name' class='mb-2'>Nama</label>
                                 <input type='text' name='name'
                                     class='form-control @error('name') is-invalid @enderror'
                                     value='{{ auth()->user()->name ?? old('name') }}'>
