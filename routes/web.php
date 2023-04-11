@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Auth::routes();
+Route::get('/',[HomeController::class,'index'])->name('home');
+Route::get('/about',[AboutController::class,'index'])->name('about');
+
+Route::middleware('auth')->group(function(){
+    Route::get('profile',[ProfileController::class,'index'])->name('profile.index');
+    Route::post('profile',[ProfileController::class,'update'])->name('profile.update');
 });
