@@ -322,7 +322,7 @@
                     <div class="image-icon"><img src=""><span class="pet_text">Kami telah berpengalaman
                             sejak tahun 1991 melayani masyarakat dengan menyediakan jasa transportasi bis Antar Kota
                             Antar Propinsi (AKAP) dan Antar Kota Dalam Propinsi (AKDP), Bis Pariwisata, Airport
-                            Shuttle, dan Taksi..</span></div>
+                            Shuttle, dan Taksi....</span></div>
                 </div>
                 <div class="col-sm-4 col-md-6 col-lg-3">
                     <h2 class="shop_text">Tautan Bermanfaat</h2>
