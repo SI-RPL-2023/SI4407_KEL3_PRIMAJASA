@@ -24,11 +24,6 @@
                             </li>
                             <li class="list-item my-2">
                                 <a class="text-decoration-none text-dark" href="">
-                                    <i class="fas fa-fw fa-users"></i>
-                                    Daftar Penumpang</a>
-                            </li>
-                            <li class="list-item my-2">
-                                <a class="text-decoration-none text-dark" href="">
                                     <i class="fas fa-fw fa-question-circle"></i>
                                     Pusat Bantuan</a>
                             </li>
@@ -63,7 +58,7 @@
                         <form action="{{ route('profile.update') }}" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class='form-group mb-3'>
-                                <label for='name' class='mb-2'>Name</label>
+                                <label for='name' class='mb-2'>Nama</label>
                                 <input type='text' name='name'
                                     class='form-control @error('name') is-invalid @enderror'
                                     value='{{ auth()->user()->name ?? old('name') }}'>
