@@ -24,11 +24,6 @@
                             </li>
                             <li class="list-item my-2">
                                 <a class="text-decoration-none text-dark" href="">
-                                    <i class="fas fa-fw fa-users"></i>
-                                    Daftar Penumpang</a>
-                            </li>
-                            <li class="list-item my-2">
-                                <a class="text-decoration-none text-dark" href="">
                                     <i class="fas fa-fw fa-question-circle"></i>
                                     Pusat Bantuan</a>
                             </li>
