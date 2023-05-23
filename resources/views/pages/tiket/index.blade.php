@@ -26,7 +26,7 @@
                                         </div>
                                         <div class="col-md-4">
                                             <select name="tujuan" id="tujuan" class="form-control">
-                                                <option value="">Pilih Tujuan</option>
+                                                <option value="">Pilih Lokasi Tujuan</option>
                                             </select>
                                         </div>
                                         <div class="col-md-4">
