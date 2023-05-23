@@ -5,7 +5,7 @@
         <div class="row mt-5 bg-header">
             <div class="col-12">
                 <div class="row justify-content-center">
-                    <div class="col-md-8">
+                    <div class="col">
                         <div class="card">
                             <div class="card-body">
                                 <form action="{{ route('tiket.info') }}" method="get">
@@ -21,12 +21,12 @@
                                         </div>
                                         <div class="col-md-4">
                                             <select name="pemberangkatan" id="pemberangkatan" class="form-control">
-                                                <option value="">Pilih Lokasi Pemberangkatan</option>
+                                                <option value="">Pilih Pemberangkatan</option>
                                             </select>
                                         </div>
                                         <div class="col-md-4">
                                             <select name="tujuan" id="tujuan" class="form-control">
-                                                <option value="">Pilih Lokasi Tujuan</option>
+                                                <option value="">Pilih Tujuan</option>
                                             </select>
                                         </div>
                                         <div class="col-md-4">
@@ -91,7 +91,7 @@
                     <div class="card-body">
                         <div class="text-center">
                             <img src="{{ asset('assets/fe/img/t1.png') }}" class="img-t" alt="" class="img-fluid">
-                            <h2>1. Pilih Rincian Perjalanan</h2>
+                            <h4>1. Pilih Rincian Perjalanan</h4>
                             <p>
                                 Masukkan tempat keberangkatan, tujuan, tanggal perjalanan dan kemudian klik 'Cari'
                             </p>
@@ -104,7 +104,7 @@
                     <div class="card-body">
                         <div class="text-center">
                             <img src="{{ asset('assets/fe/img/t2.png') }}" class="img-t" alt="" class="img-fluid">
-                            <h2>2. Pilih Tiket yang sesuai</h2>
+                            <h4>2. Pilih Tiket yang sesuai</h4>
                             <p>
                                 Pilih jenis transportasi, tempat duduk, tempat keberangkatan, tujuan, isi rincian penumpang
                                 dan klik 'Pembayaran'
@@ -118,7 +118,7 @@
                     <div class="card-body">
                         <div class="text-center">
                             <img src="{{ asset('assets/fe/img/t3.png') }}" class="img-t" alt="" class="img-fluid">
-                            <h2>3. Pembayaran</h2>
+                            <h4>3. Pembayaran</h4>
                             <p>
                                 Pembayaran dapat dilakukan melalui transfer ATM, Internet banking, Alfamart, kartu
                                 Kredit/Debit, Mandiri Clickpay, Bca Clickpay dll

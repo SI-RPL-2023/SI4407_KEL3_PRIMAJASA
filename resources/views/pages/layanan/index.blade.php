@@ -44,19 +44,28 @@
         </div>
         <div class="row justify-content-center mt-4 mb-4">
             <div class="col-md-4 align-self-center">
-                <h5>Fitur</h5>
-                <!-- <h3 class="text-primary">Mengapa Primajasa Lebih Unggul dari yang lain?</h3> -->
+                <h3 class="text-primary">Mengapa Primajasa Lebih Unggul dari yang lain?</h3>
                 <p class="">
                 Kami telah berpengalaman sejak tahun 1991 melayani masyarakat dengan menyediakan jasa transportasi bis Antar Kota Antar Propinsi (AKAP) dan Antar Kota Dalam Propinsi (AKDP), Bis Pariwisata, Airport Shuttle, dan Taksi.</p>
-                <a href="" class="btn btn-danger">Selengkapnya</a>
+                <a href="about" class="btn btn-danger">Selengkapnya</a>
             </div>
             <div class="col-md-4">
                 <div class="row mt-1">
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                                <h5>Rute Cepat</h5>
-                                <p class="">Kami telah berpengalaman sejak tahun 1991 melayani masyarakat dengan menyediakan jasa transportasi bis Antar Kota Antar Propinsi (AKAP) dan Antar Kota Dalam Propinsi (AKDP), Bis Pariwisata, Airport Shuttle, dan Taksi.</p>
+                                <h5>Pengalaman</h5>
+                                <p class="">Kami telah berpengalaman sejak tahun 1991 melayani masyarakat dengan menyediakan jasa transportasi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Kepastian</h5>
+                                <p>Kepastian Keberangkatan adalah komitmen utama kami.</p>
                             </div>
                         </div>
                     </div>
@@ -66,17 +75,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h5>Terpercaya</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eaque nemo voluptates, soluta error dolorem dignissimos repudiandae cumque explicabo voluptatum.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-1">
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>Proses Refund Mudah</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eaque nemo voluptates, soluta error dolorem dignissimos repudiandae cumque explicabo voluptatum.</p>
+                                <p>Komitmen kami untuk memberikan rasa aman dan nyaman dalam perjalanan anda.</p>
                             </div>
                         </div>
                     </div>
