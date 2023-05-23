@@ -13,7 +13,7 @@
                                     <div class="row">
                                          <div class="col-md-4">
                                             <select name="armada_id" id="armada_id" class="form-control">
-                                                <option value="">Pilih Armada</option>
+                                                <option value="">Pilih Jenis Armada</option>
                                                 @foreach ($data_jenis_armada as $armada)
                                                     <option value="{{ $armada->id }}">{{ $armada->jenis_armada }}</option>
                                                 @endforeach
