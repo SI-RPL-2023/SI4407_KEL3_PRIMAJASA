@@ -47,7 +47,7 @@
             <div class="col-md-4 text-center">
                 <img src="{{ asset('assets/fe/img/percaya .png') }}">
                 <h4 class="mb-3 mt-2">Terpercaya</h4>
-                <p>Komitmen kami untuk memberikan rasa aman dan nyaman dalam perjalanan anda.</p>
+                <p>tes</p>
             </div>
         </div>
     </div>
