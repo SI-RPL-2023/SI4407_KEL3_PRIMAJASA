@@ -19,8 +19,9 @@
 
     <link rel="stylesheet" href="{{ asset('assets/fe/css/theme.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/fontawesome-free/css/all.min.css') }}">
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('assets/fe/css/style.css') }}">
     @stack('styles')
+    @vite('resources/js/app.js')
 </head>
 <!-- body -->
 
@@ -43,6 +44,7 @@
 
     <script src="{{ asset('assets/fe/js/theme.js') }}"></script>
     @stack('scripts')
+    <x-Frontend.Alert/>
 </body>
 
 </html>
