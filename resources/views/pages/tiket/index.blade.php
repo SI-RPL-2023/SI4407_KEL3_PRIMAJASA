@@ -31,7 +31,7 @@
                                         </div>
                                         <div class="col">
                                             <br>
-                                            <input type="date" name="tanggal" class="form-control" id="date" placeholder="Tanggal Keberangkatan">
+                                            <input type="date" name="tanggal" class="form-control" id="date" >
                                         </div>
                                     </div>
                                     <div class="row mt-3">
