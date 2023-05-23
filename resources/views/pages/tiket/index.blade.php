@@ -29,8 +29,9 @@
                                                 <option value="">Pilih Lokasi Tujuan</option>
                                             </select>
                                         </div>
-                                        <div class="col-md-4">
-                                            <input type="date" name="tanggal" class="form-control" id="date">
+                                        <div class="col">
+                                            <br>
+                                            <input type="date" name="tanggal" class="form-control" id="date" placeholder="Tanggal Keberangkatan">
                                         </div>
                                     </div>
                                     <div class="row mt-3">
@@ -46,11 +47,11 @@
                                         </div> --}}
                                         <div class="col-md-4">
                                             <input type="text" name="dewasa" class="form-control"
-                                                placeholder="Jml Dewasa">
+                                                placeholder="Jumlah Dewasa">
                                         </div>
                                         <div class="col-md-4">
                                             <input type="text" name="anak_anak" class="form-control"
-                                                placeholder="Jml Anak">
+                                                placeholder="Jumlah Anak">
                                         </div>
                                         <div class="col-md-4">
                                             <button class="btn py-2 btn-danger btn-block">Cari</button>
