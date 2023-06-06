@@ -54,7 +54,7 @@
                                                 placeholder="Jumlah Anak">
                                         </div>
                                         <div class="col-md-4">
-                                            <button class="btn py-2 btn-danger btn-block">Cari</button>
+                                            <button class="btn py-2 btn btn-block" style="background-color: #90242C; color: white;">Cari</button>
                                         </div>
                                     </div>
                                 </form>

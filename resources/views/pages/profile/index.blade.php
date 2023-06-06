@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="text-center">
-                            <img src="{{ auth()->user()->avatar() }}" class="img-fluid rounded-circle profile" alt="">
+                            <img src="{{ asset('storage/' . auth()->user()->avatar) }}" class="img-fluid rounded-circle profile" alt="">
                             <h5 class="mt-2">Selamat Datang</h5>
                             <h3>{{ auth()->user()->name }}</h3>
                         </div>
@@ -28,7 +28,7 @@
                                     Pusat Bantuan</a>
                             </li>
                             <li class="list-item my-2">
-                                <a class="text-decoration-none text-dark" href="">
+                                <a class="text-decoration-none text-dark" href="{{ route('pesanan.index') }}">
                                     <i class="fas fa-fw fa-exchange-alt"></i>
                                     Riwayat Pesanan</a>
                             </li>

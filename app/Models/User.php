@@ -21,6 +21,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'nomor_telepon',
+        'kewarganegaraan',
+        'avatar',
+        'kota'
     ];
 
     /**
@@ -41,4 +45,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function avatar()
+    {
+        if($this->avatar)
+        {
+            return asset('storage/' . $this->avatar);
+        }else{
+            return asset('assets/be/img/avatar/avatar-1.png');
+        }
+    }
+
 }

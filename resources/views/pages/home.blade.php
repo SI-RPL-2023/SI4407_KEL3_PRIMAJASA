@@ -7,10 +7,10 @@
                     <h1 class="mb-4">Perjalanan Nyaman Dengan Harga Terjangkau Bersama Kami</h1>
                     <p class="text-lg text-grey mb-5">Melayani lebih dari 20 rute Antar Kota Dalam Provinsi (AKDP) dan Antar
                         Kota dan Antar Provinsi (AKAP) untuk wilayah di Jabodetabek, Banten, dan Jawa Barat</p>
-                    <a href="#" class="btn btn-danger px-4 py-2">
+                    <a href="#" class="btn px-4 py-2" style="background-color: #90242C; color: white;">
                         Beli Tiket
                     </a>
-                    <a href="#" class="ml-4 text-danger">Lihat Selengkapnya</a>
+                    <a href="#" class="ml-4 text" style="color: #90242C;">Lihat Selengkapnya</a>
                 </div>
                 <div class="col-md-6 py-5 wow zoomIn">
                     <div class="img-fluid text-center">
@@ -60,8 +60,10 @@
                 <img src="{{ asset('assets/fe/img/orang.png') }}" class="img-fluid">
             </div>
             <div class="col-md-6">
-                <h1>Terpercaya</h1>
-                <h2>Komitmen kami untuk memberikan rasa aman dan nyaman dalam perjalanan anda.</h2>
+                <br>
+                <h2>Terpercaya</h2>
+                <br>
+                <h4>Komitmen kami untuk memberikan rasa aman dan nyaman dalam perjalanan anda.</h4>
             </div>
         </div>
     </div>

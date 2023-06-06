@@ -44,10 +44,12 @@
         </div>
         <div class="row justify-content-center mt-4 mb-4">
             <div class="col-md-4 align-self-center">
+                <h5>Fitur</h5>
                 <h3 class="text-primary">Mengapa Primajasa Lebih Unggul dari yang lain?</h3>
                 <p class="">
-                Kami telah berpengalaman sejak tahun 1991 melayani masyarakat dengan menyediakan jasa transportasi bis Antar Kota Antar Propinsi (AKAP) dan Antar Kota Dalam Propinsi (AKDP), Bis Pariwisata, Airport Shuttle, dan Taksi.</p>
-                <a href="about" class="btn btn-danger">Selengkapnya</a>
+                Kami telah berpengalaman sejak tahun 1991 melayani masyarakat dengan menyediakan jasa transportasi bis Antar Kota Antar Propinsi (AKAP) dan Antar Kota Dalam Propinsi (AKDP), Bis Pariwisata, Airport Shuttle, dan Taksi.
+                </p>
+                <a href="about" class="btn" style="background-color: #90242C; color: white;">Selengkapnya</a>
             </div>
             <div class="col-md-4">
                 <div class="row mt-1">
@@ -64,8 +66,8 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                                <h5>Kepastian</h5>
-                                <p>Kepastian Keberangkatan adalah komitmen utama kami.</p>
+                                <h5>Terpercaya</h5>
+                                <p>Komitmen kami untuk memberikan rasa aman dan nyaman dalam perjalanan anda.</p>
                             </div>
                         </div>
                     </div>
@@ -74,8 +76,8 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                                <h5>Terpercaya</h5>
-                                <p>Komitmen kami untuk memberikan rasa aman dan nyaman dalam perjalanan anda.</p>
+                                <h5>Kepastian</h5>
+                                <p>Kepastian keberangkatan adalah komitmen utama kami.</p>
                             </div>
                         </div>
                     </div>

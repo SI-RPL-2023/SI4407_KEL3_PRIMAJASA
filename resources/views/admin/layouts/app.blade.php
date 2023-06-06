@@ -8,7 +8,7 @@
 <body>
     <div id="app">
         <div class="main-wrapper">
-            <div class="navbar-bg"></div>
+            <div class="navbar" style="background-color: #90242C;"></div>
             <x-Admin.Navbar></x-Admin.Navbar>
             <div class="main-sidebar">
                 <x-Admin.Sidebar></x-Admin.Sidebar>
