@@ -20,6 +20,7 @@ use App\Http\Controllers\PesananController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TiketController;
 use Illuminate\Support\Facades\Route;
+Auth::routes();
 
 /*
 |--------------------------------------------------------------------------
