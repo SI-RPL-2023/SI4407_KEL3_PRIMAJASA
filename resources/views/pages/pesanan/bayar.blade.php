@@ -29,7 +29,7 @@
                         </ol>
                         <hr>
                         <p class="text-center">Sudah melakukan transaksi?</p>
-                        <p>Setelah pembayaran anda divalidasi, kami akan mengirimkan e-tiket bus ke email dan SMS</p>
+                        <p>Setelah pembayaran anda divalidasi, kami akan mengirimkan e-tiket bus ke email dan SMS anda</p>
                         <div class="text-center mt-4">
                             <a href="{{ route('pesanan.show',$pesanan->kode) }}" class="btn btn-danger">Saya Sudah Bayar</a>
                         </div>
