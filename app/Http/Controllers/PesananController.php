@@ -19,7 +19,7 @@ class PesananController extends Controller
     {
         $items = Pesanan::where('user_id',auth()->id())->latest()->get();
         return view('pages.pesanan.index',[
-            'title' => 'Riwayat Pesanan',
+            "title" => 'Riwayat Pesanan',
             'items' => $items
         ]);
     }

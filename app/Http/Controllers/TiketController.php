@@ -13,8 +13,8 @@ class TiketController extends Controller
     {
         $data_jenis_armada = JenisArmada::orderBy('jenis_armada', 'ASC')->get();
         return view('pages.tiket.index', [
-            'title' => 'Pilih Tujuan',
-            'data_jenis_armada' => $data_jenis_armada
+            "title" => 'Pilih Tujuan',
+            "data_jenis_armada" => $data_jenis_armada
         ]);
     }
 
