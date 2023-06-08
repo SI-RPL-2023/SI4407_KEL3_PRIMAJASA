@@ -11,7 +11,7 @@
                     <div class="card-body">
 
                         <div class="">
-                            <h3 class="mb-4 text-center">Penduan Barang Hilang</h3>
+                            <h3 class="mb-4 text-center">Pengaduan Barang Hilang</h3>
                             <a href="{{ route('pengaduan-barang-hilang.create') }}" class="btn btn-primary mb-2">Buat
                                 Pengaduan</a>
                             <div class="table-responsive">
