@@ -13,7 +13,7 @@ class MetodePembayaranController extends Controller
     {
         $items = MetodePembayaran::orderBy('nama','ASC')->get();
         return view('admin.pages.metode-pembayaran.index',[
-            'title' => 'Data Metode Pembayaran',
+            "title" => 'Data Metode Pembayaran',
             'items' => $items
         ]);
     }

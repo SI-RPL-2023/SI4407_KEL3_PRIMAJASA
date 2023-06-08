@@ -15,7 +15,7 @@ class FasilitasController extends Controller
         $jenis_armada_id = request('jenis_armada_id');
         if (!$jenis_armada_id) {
             return redirect()->route('admin.fasilitas.index', [
-                'jenis_armada_id' => $fasilitas->jenis_armada_id
+                "jenis_armada_id" => $fasilitas->jenis_armada_id
             ]);
         }
         $items = Fasilitas::with('armada')->where('jenis_armada_id', $jenis_armada_id)->orderBy('fasilitas', 'ASC')->get();

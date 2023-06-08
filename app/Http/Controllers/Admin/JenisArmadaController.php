@@ -13,7 +13,7 @@ class JenisArmadaController extends Controller
     {
         $items = JenisArmada::orderBy('jenis_armada','ASC')->get();
         return view('admin.pages.jenis-armada.index',[
-            'title' => 'Data Jenis Armada',
+            "title" => 'Data Jenis Armada',
             'items' => $items
         ]);
     }

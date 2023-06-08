@@ -64,6 +64,6 @@ class PesananController extends Controller
     {
         $item = Pesanan::findOrFail($id);
         $item->delete();
-        return redirect()->route('admin.pesanan.index')->with('success','Pesanan berhasil dihapus.');
+        return redirect()->route("admin.pesanan.index")->with('success','Pesanan berhasil dihapus.');
     }
 }

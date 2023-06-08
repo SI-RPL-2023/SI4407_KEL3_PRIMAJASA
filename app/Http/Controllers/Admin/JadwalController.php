@@ -17,7 +17,7 @@ class JadwalController extends Controller
         }
         $items = Jadwal::with('armada')->where('jenis_armada_id', $jenis_armada_id)->get();
         return view('admin.pages.jadwal.index', [
-            'title' => 'Data Jadwal Armada',
+            "title" => 'Data Jadwal Armada',
             'items' => $items,
             'armada' => JenisArmada::findOrFail($jenis_armada_id)
         ]);

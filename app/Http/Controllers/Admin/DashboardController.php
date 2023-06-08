@@ -19,7 +19,7 @@ class DashboardController extends Controller
         ];
 
         $pesanan_terbaru = Pesanan::latest()->limit(10)->get();
-        return view('admin.pages.dashboard', [
+        return view("admin.pages.dashboard", [
             'title' => 'Dashboard',
             'count' => $count,
             'pesanan_terbaru' => $pesanan_terbaru
