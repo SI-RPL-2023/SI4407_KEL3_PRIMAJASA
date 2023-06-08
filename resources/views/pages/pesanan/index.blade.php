@@ -11,7 +11,7 @@
                     <div class="card-body">
 
                         <div class="">
-                            <h3 class="mb-4 text-center">Riwayat Pesanan</h3>
+                            <h3 class="mb-4 text-center">Riwayat Pesanan Tiket</h3>
                            <div class="table-responsive">
                             <table class="table table-hover table-striped">
                                 <tr>
@@ -22,7 +22,7 @@
                                     <th>Pemberangkatan</th>
                                     <th>Tujuan</th>
                                     <th>Total</th>
-                                    <th>Status</th>
+                                    <th>Status Pembayaran</th>
                                     <th>Aksi</th>
                                 </tr>
                                 @foreach ($items as $item)

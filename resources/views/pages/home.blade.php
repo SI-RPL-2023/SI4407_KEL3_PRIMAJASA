@@ -47,7 +47,7 @@
             <div class="col-md-4 text-center">
                 <img src="{{ asset('assets/fe/img/percaya .png') }}">
                 <h4 class="mb-3 mt-2">Terpercaya</h4>
-                <p>tes</p>
+                <p>Komitmen kami untuk memberikan rasa aman dan nyaman dalam perjalanan anda.</p>
             </div>
         </div>
     </div>
@@ -57,13 +57,10 @@
             <div class="col-md-6">
                 {{-- <div class="about-img">
             </div> --}}
-                <img src="{{ asset('assets/fe/img/orang.png') }}" class="img-fluid">
             </div>
             <div class="col-md-6">
                 <br>
-                <h2>Terpercaya</h2>
                 <br>
-                <h4>Komitmen kami untuk memberikan rasa aman dan nyaman dalam perjalanan anda.</h4>
             </div>
         </div>
     </div>
