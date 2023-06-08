@@ -38,7 +38,7 @@ class JadwalController extends Controller
         {
             $jadwal = Jadwal::select('tujuan')->where('jenis_armada_id',$armada_id)->where('pemberangkatan',$pemberangkatan)->groupBy('tujuan')->get();
         }else{
-            $jadwal = Jadwal::select('tujuan')->where('pemberangkatan',$pemberangkatan)->groupBy('tujuan')->get();
+            $jadwal = Jadwal::select("tujuan")->where('pemberangkatan',$pemberangkatan)->groupBy("tujuan")->get();
         }
         if($jadwal){
             return response()->json([
