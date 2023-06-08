@@ -6,7 +6,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-body">
-                        <h5>Bukti Pembayaran (Receipt)</h5>
+                        <h5><b>Bukti Pembayaran (Receipt)</b></h5>
                         <table>
                             <tr>
                                 <td style="width:100px">Nomor</td>
@@ -23,7 +23,7 @@
 
                         <div class="row">
                             <div class="col-md-6">
-                                <h5 class="mt-5">Data Pemesanan</h5>
+                                <h5 class="mt-5"><b>Data Pemesanan</b></h5>
                                 <table>
                                     <tr>
                                         <td style="width:100px">Nama</td>
@@ -38,7 +38,7 @@
                                 </table>
                             </div>
                             <div class="col-md-6">
-                                <h5 class="mt-5">Data Pembayaran</h5>
+                                <h5 class="mt-5"><b>Data Pembayaran</b></h5>
                                 <table>
                                     <tr>
                                         <td style="width:140px">Pembelian Melalui</td>
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                         <div class="text-center mt-4">
-                            <a href="{{ route('pesanan.index') }}" class="btn btn-danger px-5">Selesai</a>
+                            <a href="{{ route('pesanan.index') }}" class="btn btn-danger px-5" style="background-color: #90242C;">Selesai</a>
                         </div>
                     </div>
                 </div>
