@@ -23,13 +23,13 @@
                             <li>Buka aplikasi/web penjualan tiket wisata</li>
                             <li>Login terlebih dahulu</li>
                             <li>Masuk ke menu pesanan</li>
-                            <li>Klik salah satu pesanan yang ingin dibayarkan</li>
+                            <li>Klik salah satu pesanan yang ingin anda bayar</li>
                             <li>Lakukan pembayaran dengan metode yang sudah dipilih</li>
                             <li>Selesai, anda perlu menunggu beberapa menit untuk proses validasi dari admin</li>
                         </ol>
                         <hr>
                         <p class="text-center">Sudah melakukan transaksi?</p>
-                        <p>Setelah pembayaran anda di validasi, kami akan mengirimkan e-tiket bus ke email dan SMS</p>
+                        <p>Setelah pembayaran anda divalidasi, kami akan mengirimkan e-tiket bus ke email dan SMS</p>
                         <div class="text-center mt-4">
                             <a href="{{ route('pesanan.show',$pesanan->kode) }}" class="btn btn-danger">Saya Sudah Bayar</a>
                         </div>
